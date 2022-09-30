@@ -1,5 +1,5 @@
-# 03713 Bioinformatics Data Integration and Practicum
-03713 Project
+# RBP Peak Finder 
+Project for 03713 Bioinformatics Data Integration and Practicum
 
 ## Contributors
 - **Arnav Gupta**  
