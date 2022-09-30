@@ -11,9 +11,13 @@ Project for 03713 Bioinformatics Data Integration and Practicum
 RNA binding proteins play an important role in RNA regulation, metabolism and interactions. Predicting the interactions between viral RNAs and host proteins can facilitate a better understanding of viral infection mechanisms. Thus, we have built the pipeline ‘eRNApredict’ to identify the RNA binding sites for proteins of interest using eCLIP data from ENCORE. 
 
 ## Workflow
+The project is divided into two parts:
+
 The PART I aims to identify uniquely mapped reads to generate a list of potential binding sites also known as peaks using the fastq files from ENCORE as input.
 
 The PART II is designed to train a classifier for distinguishing between peaks from background sequences. Given the viral RNA sequence and a host protein we can predict the corresponding RNA-Protein interactions using this model based on convolutional neural networks.
+
+![Workflow](Workflow.png)
 
 
 ## Packages
